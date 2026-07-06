@@ -1,58 +1,92 @@
+# README
 # AI Learning & Security
-## Goal
-Become an AI Engineer and cybersecurity expert.
+
+A one-year learning roadmap focused on Artificial Intelligence,
+Python, and Vehicle Cybersecurity.
+
+The goal is to build practical AI applications for automotive
+cybersecurity, including IDS log analysis, SBOM analysis,
+CVE analysis, and LLM-based security assistants.
+
+Duration:
+2026.07 ~ 2027.06
 
 ## Progress
+### 2026
 
-- [x] 2026-07 Python Programming
-- [ ] 2026-08 Data Analysis
-- [ ] 2026-09 Machine Learning
-- [ ] 2026-10 LLM
-- [ ] 2026-11 SBOM AI
-- [ ] 2026-12 Vehicle Security Assistant
-- [ ] 2027-01 AI Agent
-- [ ] 2027-02 Vehicle Network
-- [ ] 2027-03 IDS
-- [ ] 2027-04 Reverse Engineering
-- [ ] 2027-05 Threat Modeling
-- [ ] 2027-06 Cybersecurity Copilot
+- [x] Python Security Toolkit
+- [ ] Vehicle Log Dashboard
+- [ ] Vehicle IDS Anomaly Detection
+- [ ] CVE Search AI
+- [ ] SBOM Analysis AI
+- [ ] Vehicle Cybersecurity Assistant
 
+### 2027
 
+- [ ] Security AI Agent
+- [ ] CAN Packet Analyzer
+- [ ] Vehicle IDS Rule Generator
+- [ ] Firmware Analyzer
+- [ ] Threat Modeling AI
+- [ ] Vehicle Cybersecurity Copilot
+
+## Directory Structure
+```text
 AI-Learning
 │
-├── python-practice          # Python 문법 실습
-├── ai-projects              # 월별 프로젝트
-│     ├── 2026-07-log-search
-│     ├── 2026-08-log-dashboard
-│     ├── 2026-09-ids-anomaly
-│     ├── 2026-10-cve-llm
-│     ├── 2026-11-sbom-ai
-│     ├── 2026-12-vehicle-assistant
-│     ├── 2027-01-security-agent
-│     ├── 2027-02-can-analyzer
-│     ├── 2027-03-ids-rule-generator
-│     ├── 2027-04-firmware-analyzer
-│     ├── 2027-05-threat-model-ai
-│     └── 2027-06-cybersecurity-copilot
-│
-├── datasets
-│
-├── notes
-│     ├── python 
-│     ├── ai
-│     ├── security
-│     └── vehicle
-│
-├── plan
+├── python-practice/     
+├── ai-projects/     
+├── datasets/
+│     ├── logs/
+│     ├── csv/
+│     ├── json/
+│     ├── sbom/
+│     └── ml/
+├── notes/
+│     ├── python/
+│     ├── ai/
+│     ├── cybersecurity/
+│     ├── git/
+│     └── vehicle/
+├── roadmap/
+│     ├── weekly/
+│     └── monthly/
+├── templates/    
+├── docs/
+│     ├── architecture/
+│     ├── diagrams/
+│     └── images/
+├── plan.md
 └── README.md
 
+```
+### Directory Description
 
-## ai-projecsts :: Projects
+| Directory | Description |
+|-----------|-------------|
+| `python-practice` | Python syntax exercises and coding practice |
+| `ai-projects` | Monthly AI and cybersecurity projects |
+| `datasets` | Sample datasets used for practice and projects |
+| `notes` | Daily study notes and technical summaries |
+| `roadmap` | Weekly and monthly learning reviews |
+| `templates` | Reusable Markdown templates for documentation |
+| `plan.md` | One-year learning roadmap and study plan |
 
-## notes :: Study Notes
+### Notes
+Daily study notes are organized by topic.
 
-Daily learning notes.
+- Python
+- AI
+- Cybersecurity
+- Git
+- Vehicle 
 
-## python - practice
+### Templates
 
-## datasets
+| Template | Purpose |
+|----------|---------|
+| `project-readme.md` | Standard README template for every project |
+| `study-note.md` | Template for organizing study notes |
+| `weekly-review.md` | Weekly learning review and progress tracking |
+| `monthly-review.md` | Monthly retrospective and planning |
+| `issue-log.md` | Record issues, root causes, and solutions |
