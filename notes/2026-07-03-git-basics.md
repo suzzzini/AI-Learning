@@ -26,6 +26,8 @@ Git은 프로그램의 **소스코드 변경 이력을 기록**하고 여러 사
 
 Git을 사용하면 파일을 수정할 때마다 새로운 파일을 계속 만드는 것이 아니라, **변경된 내용과 변경시점을 기록**하여 언제든지 이전 버전으로 되돌아가거나 변경 내역을 비교할 수 있다.
 
+
+
 ---
 ## 버전 관리 (Version Control)란?
 
@@ -218,3 +220,24 @@ Push의 반대 개념으로, GitHub에 있는 최신 내용을 내 컴퓨터로 
 
  다른 개발자 B
  1. git pull -> Local Repository로 최신 코드 다운로드
+
+# Git 사용법
+1. 프로젝트 생성 
+   - mkdir AI-Study
+   - cd AI-Study
+2. Git 시작
+   - git init
+3. 파일 생성
+   - echo "# AI Study" > README.md
+4. 추가
+   - git add .
+5. 커밋
+   - git commit -m "Initial Commit"
+6. GitHub 저장소 연결
+   - git remote add origin git@github.com:username/AI-Study.git
+7. 최초 업로드
+   - git push -u origin main
+8. 이후 파일 수정 시,
+   - git add.
+   - git comit -m "설명"
+   - git push
