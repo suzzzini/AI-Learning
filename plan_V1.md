@@ -79,6 +79,14 @@ Python 기초를 익히고 보안 자동화 프로그램을 작성할 수 있다
 - Arbitration
 - CAN 통신 흐름
 
+- Embedded 기초
+- MCU란?
+- CPU와 MCU 차이
+- Flash
+- RAM
+- EEPROM
+- GPIO
+- Interrupt
 ---
 
 ### 프로젝트
@@ -151,7 +159,11 @@ Python 데이터 분석 능력을 익히고 로그를 시각화한다.
 - Security Access
 - ReadDataByIdentifier
 - WriteDataByIdentifier
-
+- CPU 동작 원리
+- Cache Memory
+- Stack
+- Heap
+- Memory Layout
 ---
 
 ### 프로젝트
@@ -219,7 +231,14 @@ Machine Learning을 이용한 이상 탐지를 구현한다.
 - SOME/IP
 - DoIP
 - Ethernet Packet 구조
-
+- Linux & OS
+  - Process
+  - Thread
+  - Virtual Memory
+  - Linux Process
+  - /proc
+  - ps
+  - top
 ---
 
 ### 프로젝트
@@ -275,7 +294,13 @@ LLM 기반 보안 도우미를 만든다.
 - DLT 로그
 - Logging 구조
 - ECU 로그
-
+- Network Basics
+  - OSI 7 Layer
+  - TCP
+  - UDP
+  - IP
+  - Routing
+  - Socket 기초
 ---
 
 ### 프로젝트
@@ -316,7 +341,12 @@ SBOM 기반 AI 분석기를 만든다.
 - Ethernet IDS
 - 공격 패턴
 - 탐지 원리
-
+- Automotive Ethernet 심화
+  - 10BASE-T1S
+  - 100BASE-T1
+  - PHY
+  - MAC
+  - TSN 개요
 ---
 
 ### 프로젝트
@@ -356,7 +386,11 @@ SBOM Analysis AI
 - 실제 IDS 로그 분석
 - 공격 사례 분석
 - AI 적용 아이디어 정리
-
+- ECU Software
+  - Bootloader
+  - Boot Process
+  - Firmware Update
+  - Secure Boot 개념
 ---
 
 ### 프로젝트
@@ -390,7 +424,14 @@ AI Agent를 이해하고 Tool Calling을 구현한다.
 
 산출물
 - Security Agent
+--- 
 
+### 차량보안 병행학습
+Embedded Software
+- RTOS 개념
+- Task
+- Scheduler
+- Interrupt와 RTOS
 ---
 
 ### 프로젝트
@@ -420,7 +461,14 @@ Security AI Agent
 
 ### 4주차
 - DoIP
-
+---
+차량 네트워크 심화
+- CAN Physical Layer
+- CAN Controller
+- CAN Transceiver
+- Ethernet PHY
+- Ethernet Switch
+--- 
 산출물
 - CAN Packet Parser
 
@@ -453,6 +501,13 @@ IDS Rule을 이해하고 생성한다.
 ### 4주차
 - Sigma Rule
 
+--- 
+- Linux Network
+  - Socket
+  - Packet Capture
+  - Wireshark 기초
+  - TCPDump
+--- 
 산출물
 - IDS Rule Generator
 
@@ -487,6 +542,12 @@ Firmware Reverse Engineering 기초를 익힌다.
 
 산출물
 - Firmware 분석 보고서
+--- 
+Firmware 구조
+- Memory Map
+- Vector Table
+- Linker Script(개념)
+- Startup Code
 
 ---
 
@@ -519,7 +580,13 @@ Firmware Analyzer
 
 산출물
 - Threat Modeling 문서
-
+---
+Embedded Security
+- Secure Boot
+- Root of Trust
+- HSM
+- Secure Flash
+- Secure Debug
 ---
 
 ### 프로젝트
