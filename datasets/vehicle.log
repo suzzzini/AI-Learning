@@ -1,0 +1,29 @@
+INFO Vehicle Start
+INFO Driver Door Closed
+INFO Seat Belt Fastened
+INFO Battery 82%
+INFO Gear Changed : P -> D
+INFO Speed 15 km/h
+INFO Speed 35 km/h
+INFO Speed 60 km/h
+WARNING Battery 18%
+INFO Speed 85 km/h
+WARNING Tire Pressure Low
+INFO Speed 105 km/h
+ERROR Overspeed Detected
+INFO Steering Angle 12 deg
+INFO Brake Applied
+INFO Speed 70 km/h
+WARNING Battery 12%
+INFO Speed 95 km/h
+ERROR CAN IDS Alert
+INFO Ethernet Link Up
+INFO Navigation Started
+INFO Speed 120 km/h
+ERROR Overspeed Detected
+WARNING Battery 8%
+INFO Vehicle Stop
+INFO Charging Started
+INFO Battery 25%
+INFO Charging Completed
+INFO Vehicle Shutdown
